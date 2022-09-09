@@ -15,7 +15,7 @@ public class MathController {
 
 	@GetMapping("/rectangle/perimeter/{height}/{width}")
 	public int rectanglePerimeter(@PathVariable int height, @PathVariable int width) {
-		return 2 * (height * width);
+		return 2 * (height + width);
 	}
 
 	@GetMapping("/circle/perimeter/{radius}")
