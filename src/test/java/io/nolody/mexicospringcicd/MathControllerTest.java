@@ -20,7 +20,7 @@ public class MathControllerTest {
 	@Test
 	public void rectanglePerimeterReturnsCorrectArea() {
 		int result = controller.rectanglePerimeter(2, 4);
-		assertEquals(300, result);
+		assertEquals(12, result);
 	}
 
 	@Test
