@@ -18,6 +18,12 @@ public class MathControllerTest {
 	}
 
 	@Test
+	public void rectanglePerimeterReturnsCorrectArea() {
+		int result = controller.rectanglePerimeter(2, 4);
+		assertEquals(12, result);
+	}
+
+	@Test
 	public void circleRadiusReturnsCorrectArea() {
 		double result = controller.circleRadius(2.0);
 		assertEquals(12.566, result, 0.01);
