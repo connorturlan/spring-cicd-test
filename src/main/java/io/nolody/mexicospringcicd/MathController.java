@@ -22,4 +22,9 @@ public class MathController {
 	public double circleRadius(@PathVariable double radius) {
 		return 2 * Math.PI * radius;
 	}
+
+	@GetMapping("/circle/area/{radius}")
+	public double circleArea(@PathVariable double radius) {
+		return 2 * Math.PI * radius;
+	}
 }
